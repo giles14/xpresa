@@ -1,0 +1,695 @@
+:root {
+    --rage-font: 'Road Rage';
+    --azul-m: #4323FF;
+    --nunito-font: 'Nunito Sans', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #010318;
+}
+video {
+    cursor: pointer;
+}
+video[poster]:hover {
+    opacity: 0.9;
+}
+.navbar {
+    height: 175px;
+}
+a.nav-link {
+    font-family: var(--rage-font);
+    font-size: 21px;
+    color: #FFF!important;
+}
+div#navbarSupportedContent {
+    z-index: 1;
+}
+.fondo-ladrillo{
+    background:url(../img/ladrillos_top.webp);
+    background-repeat: no-repeat;
+}
+section#slider-principal{
+    background: url(../img/ladrillo_izq.webp), url(../img/ladrillo_der.webp);
+    background-repeat: no-repeat;
+    background-position-x: left, right;
+    padding: 0px 0px 0px 0px;
+}
+
+section#slider-principal {
+    background-color: #010318;
+}
+section#proyecto-xpresa{
+    background-color: #010318;
+    /* margin-top: 72px; */
+    margin-bottom: 150px;
+}
+.btn{
+    border-radius: 0px!important;
+}
+.btn.el-azul{
+    background: #4323FF;
+    border-color: #4323FF;
+}
+#proyecto-xpresa p {
+    color: #D4E4F9;
+    font-size: 21px;
+    font-weight: 100;
+    line-height: 36px;
+    padding: 20px;
+}
+p.nombre-artista{
+    font-family: var(--rage-font), cursive;
+    color: #f6f6f6;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-bottom: -120px;
+}
+p.region-artista{
+    font-family: var(--rage-font), cursive;
+    color: #f6f6f6;
+    font-size: 30px;
+    /* padding-left: 64px; */
+}
+.tag-foto {
+    background: url(../img/artistas/ArtistaXPRESA_puebla.png);
+    height: 410px;
+    background-position-x: center;
+    background-position-y: center;
+    
+    aspect-ratio: 267 / 304;
+    box-shadow: 0 0 32px 4px #010318 inset;
+    mix-blend-mode: lighten;
+    border-radius: 25%;
+    margin-top: -120px;
+}
+.tag-foto-a:hover {
+    transform: scale(1.06);
+    transition: 1s;
+}
+.tag-foto-2 {
+    background: url(../img/artistas/ArtistaXPRESA_vallarta.png);
+    height: 410px;
+    background-position-x: center;
+    background-position-y: center;
+    
+    aspect-ratio: 267 / 304;
+    box-shadow: 0 0 32px 4px #010318 inset;
+    mix-blend-mode: lighten;
+    margin-top: -120px;
+}
+.tag-foto-3 {
+    background: url(../img/incognito_Veracruz.png);
+    height: 410px;
+    background-position-x: center;
+    background-position-y: center;
+    
+    aspect-ratio: 267 / 304;
+    mix-blend-mode: lighten;
+    margin-top: -120px;
+}
+.tag-foto-4 {
+    background: url(../img/incognito_Mexico.png);
+    height: 410px;
+    background-position-x: center;
+    background-position-y: center;
+    
+    aspect-ratio: 267 / 304;
+    mix-blend-mode: screen;
+    margin-top: -120px;
+}
+.tag-foto-a {
+    background: url(../img/artistas/artista_cholula.png);
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center; 
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+}
+.tag-foto-2-a {
+    background: url(../img/artistas/artista_pv.png);
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center; 
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+}
+.tag-foto-3-a {
+    background: url(../img/artistas/artista_cb.png);
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center; 
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+}
+.tag-foto-4-a {
+    background: url(../img/artistas/artista_cy.png);
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center; 
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+}
+#artistas-2 p.region-artista {
+    font-family: var(--rage-font), cursive;
+    color: #f6f6f6;
+    font-size: 30px;
+    padding-left: 0px;
+}
+.tag-mural {
+    background: url(../img/murales/MuralXPRESA-Cholula.png);
+    height: 410px;
+    background-position-x: center;
+    background-position-y: center;
+    
+    aspect-ratio: 267 / 304;
+    box-shadow: 0 0 32px 4px #010318 inset;
+    mix-blend-mode: lighten;
+    border-radius: 25%;
+}
+.tag-mural-a:hover {
+    transform: scale(1.06);
+    transition: 1s;
+}
+.tag-mural-2 {
+    background: url(../img/murales/MuralXPRESA-Vallarta.png);
+    height: 410px;
+    background-position-x: center;
+    background-position-y: center;
+    
+    aspect-ratio: 267 / 304;
+    box-shadow: 0 0 32px 4px #010318 inset;
+    mix-blend-mode: lighten;
+}
+.tag-mural-3 {
+    background: url(../img/incognito_Veracruz.png);
+    height: 410px;
+    background-position-x: center;
+    background-position-y: center;
+    
+    aspect-ratio: 267 / 304;
+    mix-blend-mode: lighten;
+}
+.tag-mural-4 {
+    background: url(../img/incognito_Mexico.png);
+    height: 410px;
+    background-position-x: center;
+    background-position-y: center;
+    
+    aspect-ratio: 267 / 304;
+    mix-blend-mode: screen;
+}
+.tag-mural-a {
+    background: url(../img/murales/mural-cholula.png);
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center; 
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+}
+.tag-mural-2-a {
+    background: url(../img/murales/mural-pv.png);
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center; 
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+}
+.tag-mural-3-a {
+    background: url(../img/murales/mural-cb.png);
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center; 
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+}
+.tag-mural-4-a {
+    background: url(../img/murales/mural-cy.png);
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center; 
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+}
+.img-titulo{
+    margin-bottom: 40px;
+}
+section#proyecto-xpresa .container {
+    padding: 50px 50px;
+    z-index: 0;
+    position: relative;
+    color: transparent;
+    background: url(../img/spray_proyecto_izquierda.png), url(../img/spray_proyecto_derecha.png);
+    background-repeat: no-repeat;
+    background-position-x: -10px,right;
+    background-position-y: 10px, 95px;
+}
+
+section#proyecto-xpresa .container{
+    padding: 50px 0px 80px 0px;
+}
+
+.el-titulo {
+    padding-bottom: 35px;
+    margin-bottom: 22px;
+    z-index: 2;
+    position: relative;
+}
+section#dinamica-xpresa{
+    margin-top: 32px;
+}
+img.spray-azul {
+    position: absolute;
+    top: -110px;
+    left: calc(0px - 270px);
+}
+#dinamica-xpresa p.texto {
+    color: #D4E4F9;
+    font-weight: 100;
+    font-size: 15px;
+}
+#dinamica-xpresa p.texto a{
+    color: #5BDB8D;
+}
+section#ubicacion-murales{
+    background: url(../img/ladrillo_izq.webp), url(../img/ladrillo_der.webp);
+    background-repeat: no-repeat;
+    background-position-x: left, right;
+    margin-top: 130px;
+}
+h2.la-ciudad {
+    color: #01FD4D;
+    font-family: var(--rage-font);
+    font-size: 36px;
+    margin-top: 60px;
+}
+p.texto-mapa {
+    color: #D4E4F9;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+}
+.formulario .cuerpo {
+    background: url(../img/textura_formularios-XPRESA.png);
+    padding: 22px 30px 0px 30px;
+    border-radius: 0px 0px 15px 15px;
+    background-size: cover;
+}
+.formulario .cabecera {
+    background: #4323FF;
+    padding: 4px 0px 1px 0px;
+}
+.formulario h1{
+    font-family: var(--rage-font);
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+#interes label {
+    color: var(--azul-m);
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 0.09px;
+}
+.boton-registro{
+    background: #4323FF;
+    font-family: var(--rage-font);
+    letter-spacing: 0.54px;
+    color: #FFF;
+    font-size: 30px;
+    padding: 1px 43px;
+    margin-bottom: 14px;
+}
+#interes input {
+    border: none;
+    border-bottom: 2px solid var(--azul-m);
+    border-radius: 0px;
+    background: none;
+}
+#interes input::placeholder {
+    color: #FD4100;
+    font-size: 15px;
+    letter-spacing: 0.09px;
+    font-family: var(--nunito-font);
+}
+#dinamica-xpresa {
+    /* background: url(../img/spray-azul.png); */
+    background-repeat: no-repeat;
+    background-position-x: left;
+    margin-top: 130px;
+    background-position-y: -35px;
+    padding: 100px 0px 240px 0px;
+}
+div#in-map {
+    background: url(../img/spray-azul-mapas.png);
+    background-repeat: no-repeat;
+    background-position-y: 443px;
+    background-position-x: center;
+    background-size: contain;
+}
+section#footer{
+    background:#FD4100;
+    min-height: 80px;
+    padding-top: 30px;
+}
+#footer a {
+    color: #2B1FD3;
+    padding-right: 30px;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+}
+p.copyright {
+    color: #0018ff;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    letter-spacing: 0.45px;
+}
+section#murales-xpresa {
+    margin-top:0px;
+}
+.row.de-murales {
+    /* margin-top: -109px; */
+}
+#murales-xpresa-2 .row.de-murales {
+    margin-top: 0;
+}
+img#img-ubicacion-murales {
+    margin-bottom: 56px;
+}
+section#detras-de-camaras {
+    margin-top: 60px;
+    background: url(../img/ladrillo_izq.webp), url(../img/ladrillo_der.webp);
+    background-repeat: no-repeat;
+    background-position-x: left, right;
+    background-position-y: center;
+    padding: 0px 0px 30px 0px;
+    margin-bottom: 160px;
+}
+section#capitulos-miniserie {
+    margin-top: 150px;
+    background: url(../img/muro_bottom.webp);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    padding-bottom: 10vh;
+}
+section#galeria{
+    margin-bottom: 156px;
+}
+section#acerca-autor{
+    margin-bottom: 80px;
+}
+section#acerca-autor p.acerca-autor {
+    color: #D4E4F9;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 300;
+}
+section#artistas {
+    margin-bottom: 164px;
+}
+.capitulo-miniserie{
+    font-family: var(--rage-font);
+    font-size: 30px;
+    color: #f6f6f6;
+    font-weight: 400;
+}
+.wrap-imagen{
+    position: relative;
+}
+img.spray-frontal {
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    max-width: 40%;
+    left: -13vw;
+}
+section#mural {
+    margin-bottom: 235px;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    z-index: 1;
+}
+.redes-sociales {
+    /* margin: 0 auto;
+    display: block;
+    width: 55%;
+    margin-top: 35px; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+@media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    img.spray-frontal {
+        left: calc(0% - 100px);
+        top: 58%;
+    }
+    img.spray-verde-esquina {
+        position: absolute;
+        z-index: 1;
+        bottom: calc(-75% + 90px);
+        right: calc(-25%);
+    }
+    img.spray-morado-esquina {
+        position: absolute;
+        top: calc(0px - 200px);
+        left: calc(0px - 168px);
+    }
+    a.carousel-control-prev {
+        background: url(../img/Flecha_DCHA_XPRESA.png);
+        background-repeat: no-repeat;
+        background-position-y: center;
+    }
+    a.carousel-control-next {
+        background: url(../img/Flecha_IZQDA_XPRESA.png);
+        background-repeat: no-repeat;
+        background-position-y: center;
+    }
+    .carousel-control-prev-icon {
+        background-image: unset;
+    }
+    .carousel-control-next-icon {
+        background-image: unset;
+    }
+  }
+  
+  @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    img.spray-frontal {
+        left: calc(0% - 100px);
+        top: 58%;
+    }
+    img.spray-verde-esquina {
+        position: absolute;
+        z-index: 1;
+        bottom: calc(-75% + 90px);
+        right: calc(-40%);
+    }
+    img.spray-morado-esquina {
+        position: absolute;
+        top: calc(0px - 200px);
+        left: calc(0px - 250px);
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    img.spray-frontal {
+        left: calc(0% - 100px);
+        top: 58%;
+    }
+    img.spray-verde-esquina {
+        position: absolute;
+        z-index: 1;
+        bottom: calc(-98% + 90px);
+        right: calc(-55%);
+    }
+    img.spray-morado-esquina {
+        position: absolute;
+        top: calc(0px - 200px);
+        left: calc(0px - 270px);
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    img.spray-frontal {
+        left: calc(0% - 100px);
+        top: 58%;
+    }
+    img.spray-verde-esquina {
+        display: none;
+    }
+    img.spray-morado-esquina {
+        display: none;
+    }
+    /* .redes-sociales {
+        width: 92%;
+        margin-top: 35px;
+        padding-bottom: 60px;
+    } */
+    section#slider-principal {
+        background: unset;
+    }
+    .formulario {
+        margin-top: 60px;
+    }
+  }
+
+  html, body, .stage, .ring, .img {
+    width:100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    user-select:none;
+  }
+  
+    .stage {
+    overflow:hidden;
+    position: relative;
+  }
+  
+  svg {
+    position: absolute;
+  }
+  .ring {
+    position: absolute;
+}
+.img{
+    position: absolute;
+}
+  
+  .container-g {
+    perspective: 2000px;
+    width: 300px;
+    height: 400px;  
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    position: inherit;
+  }
+  /* GalerÃ­a */
+  .photo-gallery {
+    color:#313437;
+  }
+  
+  .photo-gallery p {
+    color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+    section#proyecto-xpresa .container {
+        padding: unset;
+    }
+    section#proyecto-xpresa .container {
+    padding: 0px 15px 0px 15px;
+    }
+    section#proyecto-xpresa .container {
+        z-index: 0;
+        position: relative;
+        color: transparent;
+        background: url(../img/spray_proyecto_izquierda.png);
+        background-repeat: no-repeat;
+        background-position-x: -135px;
+        background-position-y: -15px;
+    }
+    #proyecto-xpresa p {
+        text-align: justify;
+    }
+    p.region-artista {
+        /* padding-left: 64px; */
+    }
+    div#navbarSupportedContent {
+        background: #FE4703;
+        text-align: center;
+    }
+    .navbar-light .navbar-toggler {
+        background: #FE4703;
+    }
+    .bg-light {
+        background-color: unset!important;
+    }
+    section#detras-de-camaras {
+        background: unset;
+    }
+    p.acerca-autor {
+        text-align: justify;
+    }
+  }
+  
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+    text-align: center;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+
+.img-fb {
+    float: left;
+    
+}
+.img-tw {
+    float: left;
+    
+}
+p.text-formulario {
+    color: var(--azul-m);
+    font-weight: 800;
+}
+input[type="radio"] {
+    width: 50px;
+}
+input[type="radio"] {
+    width: 16px;
+    height: 16px;
+}
+/* .legales{
+    visibility: hidden;
+} */
+.img-social {
+    float: left;
+    margin-right: 19px;
+}
+.img-social:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+    filter: saturate(8);
+}
+.legales {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.img-fb:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+    filter: saturate(8);
+}
+.img-tw:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+    filter: saturate(8);
+}
