@@ -66,7 +66,65 @@ $templates = new Engine('./partials');
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js" integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
-    
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function enviarFormulario(parent, silent = false, strict = false){
+                var elementos = parent.closest('form').getElementsByTagName("input");
+                // var programa = parent.closest('form').elements;
+                var nombre = elementos.namedItem('nombre').value;
+                var mail = encodeURIComponent(elementos.namedItem('email').value);
+                var telefono = elementos.namedItem('telefono').value;
+                var programa = elementos.namedItem('programa').value;
+
+                console.log(nombre);
+                console.log(mail);
+                console.log(telefono);
+                console.log(programa);
+                
+                var url = "https://api.redisoft.dev/Leads/web";
+                var xhttp = new XMLHttpRequest();
+                xhttp.open("POST", url);
+                xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhttp.onload = function(resp){
+                    console.log(xhttp.response);
+                    if(xhttp.response == 'duplicated'){
+                      Swal.fire({
+                        title: '¡Duplicado!',
+                        text: 'Tus datos ya se encuentran registrados en nuestro sistema',
+                        icon: 'warning',
+                        toast: true,
+                        timer: 6000,
+                        timerProgressBar: true,
+                        confirmButtonColor: "green",
+                        confirmButtonText: 'Entendido'
+                      });
+                      
+                        console.log("está duplicado");
+                    }else {
+                      Swal.fire({
+                        icon: 'success',
+                        title: 'Datos registrados con éxito',
+                        toast: true,
+                        position: 'bottom-end',
+                        showConfirmButton: false,
+                        timer: 6000,
+                        timerProgressBar: true,
+                        didOpen: (toast) => {
+                          toast.addEventListener('mouseenter', Swal.stopTimer)
+                          toast.addEventListener('mouseleave', Swal.resumeTimer)
+                        }
+                      });
+                      console.log("se guardó");
+                    }
+
+                }
+                var data = "nombre=Carlos Prueba&correo=giles.carlosasase%40iexe.edu.mx&telefono=%2B522226835059&programa=DADFP&referencia=https%3A%2F%2Fiexe.edu.mx%2F%23interes&charifaz=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F97.0.4692.99%20Safari%2F537.36&adicional=origen%3A%2Bformulario-home-conocer";
+                
+                xhttp.send(data);
+                return console.log("esperando mensaje")
+            }
+    </script>
         
     <script>
         $('.row.artists').slick({
