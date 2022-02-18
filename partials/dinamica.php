@@ -33,7 +33,7 @@
                           <h1 class="interes"> Completa el registro y participa</h1>
                       </div>
                       <div class="cuerpo">
-                          <form id="interes" method="POST" action="">
+                          <form id="interes" method="POST" data-origen="formulario expresa" action="">
                               <div class="form-group">
                                 <label for="nombre">Nombre completo*</label>
                                 <input type="text" placeholder="Ingresa aquí tu nombre" class="form-control" name="nombre" id="nombre" >

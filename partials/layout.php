@@ -70,12 +70,14 @@ $templates = new Engine('./partials');
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         function enviarFormulario(parent, silent = false, strict = false){
-                var elementos = parent.closest('form').getElementsByTagName("input");
-                // var programa = parent.closest('form').elements;
+                const forma = parent.closest('form');
+                var elementos = forma.getElementsByTagName("input");
+                var idForm = forma.getAttribute('id');
                 var nombre = elementos.namedItem('nombre').value;
                 var mail = encodeURIComponent(elementos.namedItem('email').value);
-                var telefono = elementos.namedItem('telefono').value;
+                var telefono = encodeURIComponent(elementos.namedItem('telefono').value);
                 var programa = elementos.namedItem('programa').value;
+                var origen = forma.dataset.origen;
 
                 console.log(nombre);
                 console.log(mail);
@@ -119,7 +121,7 @@ $templates = new Engine('./partials');
                     }
 
                 }
-                var data = "nombre=Carlos Prueba&correo=giles.carlosasase%40iexe.edu.mx&telefono=%2B522226835059&programa=DADFP&referencia=https%3A%2F%2Fiexe.edu.mx%2F%23interes&charifaz=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F97.0.4692.99%20Safari%2F537.36&adicional=origen%3A%2Bformulario-home-conocer";
+                var data = "nombre="+ nombre +"&correo="+ mail +"&telefono="+ telefono +"&programa="+ programa +"&referencia="+ window.location.href +"#"+ idForm +"&charifaz="+ navigator.userAgent +"&adicional=origen:%20"+ origen;
                 
                 xhttp.send(data);
                 return console.log("esperando mensaje")
