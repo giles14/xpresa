@@ -51,18 +51,22 @@
 
                     </div>
                     <div class="row photos">
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-1.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-1.webp" data-alt="La barda"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-2.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-2.webp"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-3.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-3.webp"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-4.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-4.webp"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-5.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-5.webp"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-6.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-6.webp"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-7.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-7.webp"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-8.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-8.webp"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-9.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-9.webp"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-10.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-10.webp"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-11.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-11.webp"></a></div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-12.webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/t_fotoCholula-12.webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(1).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(1).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(2).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(2).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(3).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(3).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(4).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(4).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(5).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(5).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(6).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(6).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(7).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(7).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(8).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(8).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(9).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(9).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(10).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(10).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(11).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(11).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(12).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(12).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(13).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(13).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(14).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(14).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(15).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(15).webp"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galeria/fotoCholula-00015(16).webp" data-lightbox="photos"><img class="img-fluid" src="assets/img/galeria/THUMBNAILS/fotoCholula-00015(16).webp"></a></div>
                 </div>
             </div>
         </div>
