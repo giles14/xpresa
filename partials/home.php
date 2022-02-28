@@ -5,10 +5,13 @@
               <div class="row">
                   <div class="col-md-12 my-2 my-lg-0">
                         <!-- <img src="assets/img/video.png" class="img-fluid mx-auto d-block" alt=""> -->
-                        <video width="100%" height="100%" controls poster="assets/img/video-pre-1.webp">
+                        <!-- <video width="100%" height="100%" controls poster="assets/img/video-pre-1.webp">
                             <source src="assets/video/video.m4v" type="video/mp4">
                            Tu Navegador no admite Video en HTML 5
-                          </video>
+                          </video> -->
+                          <div class="videoWrapper">
+                            <iframe width="100%" src=" https://www.youtube.com/embed/LZRCU-2pgmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                   </div>
               </div>
           </div>
@@ -215,11 +218,13 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <video width="100%" height="100%" controls poster="assets/img/video-pre-2.webp">
+                    <!-- <video width="100%" height="100%" controls poster="assets/img/video-pre-2.webp">
                         <source src="assets/video/02-Trailer_Xpresa_HOME.m4v" type="video/mp4">
                       Your browser does not support the video tag.
-                      </video>
-
+                      </video> -->
+                      <div class="videoWrapper">
+                            <iframe width="100%" src="https://www.youtube.com/embed/QQ4b05sNmg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
                 </div>
 
             </div>

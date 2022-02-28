@@ -16,8 +16,8 @@
                       2. Ubica los murales, visítalos y tómate una foto o vídeo donde aparezcas tú. 
                     </p>
                     <p class="texto">3. Comparte la foto o vídeo en tus redes sociales usando los hashtahgs #XPRESAIEXE e #IEXEUNIVERSIDAD </p>
-                    <p class="texto">4. Regístrate en <a href="https://xpresa.iexe.edu.mx">xpresa.iexe.edu.mx</a>  y sigue nuestras redes sociales para ganar una playera conmemorativa y participar por una beca para estudiar en IEXE Universidad. Tienes del 2 al 27 de febrero para participar. </p>
-                    <p class="texto">Los ganadores serán anunciados el día 28 de febrero, a través de <a href="https://xpresa.iexe.edu.mx">xpresa.iexe.edu.mx</a>  y nuestras redes sociales.</p>
+                    <p class="texto">4. Regístrate en <a href="https://xpresa.iexe.edu.mx">xpresa.iexe.edu.mx</a>  y sigue nuestras redes sociales para ganar una playera conmemorativa y participar por una beca para estudiar en IEXE Universidad. Tienes del 25 de Febrero al 17 de Abril para participar. </p>
+                    <p class="texto">Los ganadores serán anunciados el día 22 de Abril, a través de <a href="https://xpresa.iexe.edu.mx">xpresa.iexe.edu.mx</a>  y nuestras redes sociales.</p>
                     <div class="redes-sociales">
                         <div class="img-social"><a target="_blank" href="https://www.facebook.com/IEXE.Universidad"><img src="assets/img/Icon_FB-XpresaPurple.png" alt=""></a></div>
                         <div class="img-social"><a target="_blank" href="https://www.instagram.com/iexe_universidad"><img src="assets/img/social-ig.png" alt=""></a></div>
