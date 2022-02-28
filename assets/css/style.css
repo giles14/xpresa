@@ -21,7 +21,7 @@ video[poster]:hover {
 }
 a.nav-link {
     font-family: var(--rage-font);
-    font-size: 21px;
+    font-size: 24px;
     color: #FFF!important;
 }
 div#navbarSupportedContent {
@@ -355,13 +355,13 @@ section#footer{
     padding-top: 30px;
 }
 #footer a {
-    color: #2B1FD3;
+    color: #FFF;
     padding-right: 30px;
     font-family: 'Nunito Sans';
     font-size: 15px;
 }
 p.copyright {
-    color: #0018ff;
+    color: #FFF;
     font-family: 'Nunito Sans';
     font-size: 15px;
     letter-spacing: 0.45px;

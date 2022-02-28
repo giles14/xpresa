@@ -22,6 +22,14 @@ $templates = new Engine('./partials');
     <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
 
     <title>Xpresa</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GY2D25YGPT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GY2D25YGPT');
+    </script>
   </head>
   <body>
   <header>
