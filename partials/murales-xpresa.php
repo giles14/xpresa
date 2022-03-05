@@ -9,16 +9,17 @@
             <div class="row de-murales">
                   <div class="col-md-3">
                       
-                      <a href="cholula.php"><div class="tag-mural-a">
-                          
-                      </div></a>
+                      <a href="cholula.php">
+                          <div class="tag-mural-a"></div>
+                      </a>
                       <p class="region-artista text-center">Cholula, Puebla</p>
                   </div>
                   <div class="col-md-3 ">
-                      
+                    <a href="vallarta.php">
                       <div class="tag-mural-2-a">
-                          <img src="" alt="" class="sello-foto">
+                          <!-- <img src="" alt="" class="sello-foto"> -->
                       </div>
+                    </a>
                       <p class="region-artista text-center">Puerto Vallarta, Jalisco</p>
                   </div>
                   <div class="col-md-3">

@@ -53,7 +53,7 @@
                                         loading="lazy"
                                         allowfullscreen
                                         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC6KwiDd1Uxuo9l7clbobNoOftFqPqHsAM
-                                            &q=19.046784,-98.254282">
+                                            &q=Josefa+Ortiz+de+Domínguez+200+vallarta">
                             </iframe>
                             <style>
                                 iframe {
@@ -88,7 +88,7 @@
                                 loading="lazy"
                                 allowfullscreen
                                 src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC6KwiDd1Uxuo9l7clbobNoOftFqPqHsAM
-                                    &q=jalisco">
+                                    &q=20.6117138,-105.2336114">
                     </iframe>
                             <style>
                                 iframe {
@@ -98,8 +98,8 @@
                             </style>
                     </div>
                             <div class="ubicacion">
-                                <h2 class="la-ciudad">PRÓXIMAMENTE</h2>
-                                <p class="texto-mapa">Si te imaginas en la playa, o viendo delfines, o en una fiesta prendida por la noche. La ciudad que te puede hacer enamorar entre sus distintas arenas se encuentra aquí.</p>
+                                <h2 class="la-ciudad">Puerto Vallarta, Jalisco</h2>
+                                <p class="texto-mapa">Si te imaginas en la playa, o viendo delfines, o en una fiesta prendida por la noche. La ciudad que te puede hacer enamorar entre sus distintas arenas será esta. Dirígete a 200 Josefa Ortiz de Domínguez Col. centro y ahí nos encontraremos.</p>
                             </div>
                         </div>
                     </div>
@@ -177,17 +177,20 @@
             <div class="row artists">
                 <div class="col-md-3 col-xs-12 col-sm-12">
                     <!-- <p class="nombre-artista text-center">Yestseronack</p> -->
-                    <a href="cholula.php#acerca-autor"><div class="tag-foto-a">
+                    <a href="cholula.php#acerca-autor">
+                        <div class="tag-foto-a">
                           <img src="" alt="" class="sello-foto">
-                    </div></a>
+                        </div>
+                    </a>
                     <p class="region-artista text-center">Yestseronack</p>
                 </div>
                 <div class="col-md-3 col-xs-12 col-sm-12">
-                    <!-- <p class="nombre-artista text-center">Yestseronack</p> -->
-                    <div class="tag-foto-2-a">
-                          <img src="" alt="" class="sello-foto">
-                    </div>
-                    <p class="region-artista text-center"></p>
+                    <a href="vallarta.php#acerca-autor">
+                        <div class="tag-foto-2-a">
+                            <!-- <img src="" alt="" class="sello-foto"> -->
+                        </div>
+                    </a>
+                    <p class="region-artista text-center">Liz Rashell</p>
                 </div>
                 <div class="col-md-3 col-xs-12 col-sm-12">
                     <!-- <p class="nombre-artista text-center">Yestseronack</p> -->

@@ -89,6 +89,10 @@ p.region-artista{
     transform: scale(1.06);
     transition: 1s;
 }
+.tag-foto-2-a:hover {
+    transform: scale(1.06);
+    transition: 1s;
+}
 .tag-foto-2 {
     background: url(../img/artistas/ArtistaXPRESA_vallarta.png);
     height: 410px;
@@ -173,6 +177,10 @@ p.region-artista{
     transform: scale(1.06);
     transition: 1s;
 }
+.tag-mural-2-a:hover {
+    transform: scale(1.06);
+    transition: 1s;
+}
 .tag-mural-2 {
     background: url(../img/murales/MuralXPRESA-Vallarta.png);
     height: 410px;
@@ -210,7 +218,7 @@ p.region-artista{
     background-repeat: no-repeat;
 }
 .tag-mural-2-a {
-    background: url(../img/murales/mural-pv.png);
+    background: url(../img/murales/mural-pv.webp);
     background-size: contain;
     background-position-x: center;
     background-position-y: center; 

@@ -55,7 +55,7 @@ $templates = new Engine('./partials');
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-              <button type="button" class="btn btn-primary el-azul d-none d-md-block">IEXE Universidad</button>
+              <a href="https://iexe.edu.mx" target="_blank"><button type="button" class="btn btn-primary el-azul d-none d-md-block">IEXE Universidad</button></a>
             </form>
           </div>
       </div>
